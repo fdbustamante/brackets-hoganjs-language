@@ -1,9 +1,9 @@
-brackets-mustache-language
+brackets-hoganjs-language
 ==========================
 
-Brackets Mustache language extension.
+Brackets HoganJs language extension.
 
-Adds support for mustache file extensions.
+Adds support for hoganjs file extensions.
 
 ##License
 [MIT](http://opensource.org/licenses/MIT)

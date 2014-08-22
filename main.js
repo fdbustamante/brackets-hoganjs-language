@@ -2,15 +2,15 @@
 /*global define, $, brackets, window*/
 
 /*!
- * Brackets Mustache language extension.
- * Adds support for mustache file extensions.
- * © 2014, İsmail Demirbilek, MIT License
- * http://github.com/dbtek/brackets-mustache-language
+ * Brackets HoganJS language extension.
+ * Adds support for HoganJS file extensions.
+ * © 2014, Federico Bustamante, MIT License
+ * http://github.com/fdbustamante/brackets-hoganjs-language
  */
 
 define(function (require, exports, module) {
     "use strict";
     var LanguageManager = brackets.getModule("language/LanguageManager");
     var language = LanguageManager.getLanguage("html");
-    language.addFileExtension("mustache");
+    language.addFileExtension("hjs");
 });
